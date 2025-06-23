@@ -7,6 +7,6 @@ class ChatRequest(BaseModel):
     question: str = Field(..., description="User's chat message")
     thread_id: Optional[str] = Field(None, description="ID of the conversation thread")
     json_extractor_thread_id: Optional[str] = Field(None, description="ID of the conversation thread")
-    is_user_registered: bool = True
+    is_user_registered: bool = False
 
 

@@ -3,6 +3,7 @@ import uvicorn
 
 from libs.utils.middleware.request_data import RequestDataMiddleware
 from libs.utils.config import config
+from src.routes import chat as chat_routes
 from src import logger
 
 app = FastAPI()
@@ -16,6 +17,8 @@ def health_check():
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
+
+app.include_router(chat_routes.chat_router)
 
 app.add_middleware(RequestDataMiddleware)
 
