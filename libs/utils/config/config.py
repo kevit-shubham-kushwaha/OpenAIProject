@@ -9,6 +9,8 @@ if os.path.exists(env_path) is None:
 config = dotenv_values(env_path)
 
 
+
+
 HOST = config.get("HOST")
 PORT = config.get("PORT")
 
