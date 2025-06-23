@@ -1,2 +1,20 @@
-uvicorn = 0.34.3
-fastapi = 0.115.13
+fastapi==0.115.13
+uvicorn==0.34.3
+openai==1.90.0
+
+python-dotenv==1.1.0
+pydantic==2.11.7
+pydantic-settings==2.10.0
+pydantic-extra-types==2.10.5
+
+httpx==0.28.1
+orjson==3.10.18
+ujson==5.10.0
+
+colorlog==6.9.0
+email_validator==2.2.0
+markdown-it-py==3.0.0
+mdurl==0.1.2
+
+Jinja2==3.1.6
+watchfiles==1.1.0
