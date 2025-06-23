@@ -1,0 +1,9 @@
+REGISTERED_USER_FLOW_DETECTOR = '''
+
+'''
+
+
+
+NOT_REGISTERED_USER_FLOW_DETECTOR = '''
+     
+'''
